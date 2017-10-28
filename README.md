@@ -75,19 +75,19 @@ ustala rozmieszczenie elementów na osi poprzecznej (cross-axis) :
 - stretch - zawartość będzie rozciągnięta, aby wypełnić kontener (warto przy tym zaznaczyć, że wartości min-width/max-width będą zachowane).
 
 ### Align-content 
-**działa przy wiecej niż jednej linii**
+**działa przy wiecej niż jednej linii**   
 opcja jak w Justify-content
 
 
 ### Order
-kolejność elemnetów na stronie
+kolejność elementów na stronie
 ```
 -webkit-order: -1;
     order: -1;
-```
+```     
 
 **Flex-grow** - proporcjonalnie powiększa konkretny element    
-**Flex-shrink** - pomniejsza
+**Flex-shrink** - pomniejsza   
 **Flex-basis** - określa domyślny rozmiar elementu
 ```
 -webkit-flex: 0 1 auto;
